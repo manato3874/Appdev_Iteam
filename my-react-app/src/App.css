@@ -1,12 +1,33 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: aqua;
+}
+
 .App {
   text-align: center;
 }
 
 #startbtn{
   background-color: red;
-  width: 90px;
-  height: 90px;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
+  color: white;
+}
+
+#chatbtn{
+  background-color: blue;
+  color: blue;
+  font-style: bold;
+}
+
+.link{
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .App-logo {
