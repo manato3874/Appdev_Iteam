@@ -1,0 +1,52 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    background-color: #00BFFF;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+.input-group label,
+.input-group input {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.input-group input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.submit-group {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.submit-group button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:focus,
+input:focus {
+    outline: none;
+}

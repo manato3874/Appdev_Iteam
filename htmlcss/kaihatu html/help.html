@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>トイレの神様</title>
+    <style>
+        html {
+            background-color: #85D3FF;
+            height: 100%;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 100%;
+            margin: 0;
+            position: relative; /* 戻るボタンのために追加 */
+        }
+
+        .back-button {
+            position: absolute; /* 絶対位置指定 */
+            top: 20px; /* 上から20pxの位置に */
+            left: 20px; /* 左から20pxの位置に */
+            width: 100px;
+            height: 50px;
+            background-color: #000000;
+            color: #ffffff;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            font-size: 16px; /* テキストサイズを指定 */
+            text-align: center; /* テキストを中央揃え */
+            line-height: 50px; /* テキストの行の高さをボタンの高さと同じにして垂直中央揃え */
+            text-decoration: none; /* テキストの下線を消す */
+        }
+
+        .title {
+            font-size: 36px;
+            text-align: center;
+            margin-top: 80px; /* 戻るボタンのための余白を調整 */
+        }
+
+        p {
+            font-size: 36px;
+            text-align: center;
+            margin: 20px 10%; /* 余白の調整 */
+        }
+
+        .ao-button, .aka-button {
+            width: 140px; /* ボタンの幅を調整 */
+            height: 70px; /* ボタンの高さを調整 */
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-decoration: none;
+            cursor: pointer;
+            border: none;
+            outline: none;
+            margin: 20px 10px; /* 余白の調整 */
+            font-size: 24px; /* テキストサイズの調整 */
+        }
+
+        .ao-button {
+            background-color: blue;
+        }
+
+        .aka-button {
+            background-color: red;
+        }
+
+        .button-container {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            width: 100%; /* コンテナの幅を画面幅に合わせる */
+            margin: 30px 0; /* 上下の余白を調整 */
+        }
+    </style>
+</head>
+<body>
+    <a href="tuti.html" class="back-button">戻る</a>
+    <div class="title">助けを求めている</div>
+    <p>トイレを探している<br>男性 20代</p>
+    <div class="button-container">
+        <button class="ao-button">助ける</button>
+        <button class="aka-button">みすてる</button>
+    </div>
+    <a href="text.html" class="ao-button">チャット</a>
+</body>
+</html>
