@@ -2,7 +2,7 @@
 import Head from 'next/head';
 import Map_iframe from '../../data/iframe.json';
 import Opendata from '../../data/opendata.json';
-import Maps from '../../data/test.json';
+import Maps from '../../data/toilet.json';
 
 
 const WCPage = () => {
