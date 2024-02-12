@@ -16,23 +16,7 @@ const Page = () => {
       </Head>
       <p>トイレの神様</p>
 
-      <Link href="/iframe.json" legacyBehavior >
-        <a className={styles.circleButton}>やばいもれそう！！</a>
-      </Link>
-
-      <div>
-        <ul>
-          {Maps.map((data, index) => (
-            <li key={index}>
-              <p>{data.施設名}</p>
-              <p>{data.都道府県} {data.市区町村} {data.番地}</p>
-      <iframe src={data.Map_iframe} width="600" height="450" style={{ marginRight: "10px" }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
-
-
-            </li>
-          ))}
-        </ul>
-      </div>
+        <a href={"/wc/wc"} className={styles.circle_button}>やばいもれそう！！</a>
 
     </div>
   );
