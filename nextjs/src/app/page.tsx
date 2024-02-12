@@ -16,7 +16,7 @@ const Page = () => {
       </Head>
       <p>トイレの神様</p>
 
-      <Link href="/index" legacyBehavior >
+      <Link href="/iframe.json" legacyBehavior >
         <a className={styles.circleButton}>やばいもれそう！！</a>
       </Link>
 
